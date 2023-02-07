@@ -9,7 +9,7 @@ export default function Information({ width, height, fill }: IconProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_2530_13046)">
+      <g clipPath="url(#clip0_2530_13046)">
         <path
           d="M12.3939 10.6616C12.8722 10.6616 13.26 11.0494 13.26 11.5278V16.7247C13.26 17.203 12.8722 17.5909 12.3939 17.5909C11.9155 17.5909 11.5277 17.203 11.5277 16.7247V11.5278C11.5277 11.0494 11.9155 10.6616 12.3939 10.6616Z"
           fill={fill ?? "black"}

@@ -1,4 +1,4 @@
-import {createGlobalStyle} from "styled-components"
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -10,8 +10,10 @@ const GlobalStyle = createGlobalStyle`
     outline: unset;
     list-style: none;
     font-style: normal;
+    font-family: 'Pretendard',serif;
+    font-style: normal;
     @font-face {
-      font-family: 'Pretendard-Regular';
+      font-family: 'Pretendard';
       src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
         format('woff');
       font-weight: 400;
@@ -45,6 +47,6 @@ const GlobalStyle = createGlobalStyle`
     -webkit-appearance: none;
     margin: 0;
   }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle
